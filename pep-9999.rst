@@ -69,7 +69,7 @@ When used on a ReduceMap generator, the :code:`last` builtin would
 - Take the final value produced by the iterable (if the iterable yields any items) OR
 - Take the initial value (defined in the :code:`from ...` block) otherwise.
 
-When used on a normal generator (or a Reduce-Map generator without a :code:`from ...` initializer), :code:`last` would behave like:
+When used on a normal generator, :code:`last` would behave like:
 
 .. code-block:: python
 
